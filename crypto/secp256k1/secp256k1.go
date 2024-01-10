@@ -8,7 +8,7 @@ import (
 	"io"
 	"math/big"
 
-	secp256k1 "github.com/btcsuite/btcd/btcec"
+	secp256k1 "github.com/ningyiyi0718/btcd/btcec"
 	"golang.org/x/crypto/ripemd160" // nolint: staticcheck // necessary for Bitcoin address format
 
 	"github.com/tendermint/tendermint/crypto"
